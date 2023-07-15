@@ -1,4 +1,10 @@
 /conda-cheatsheet.pdf
+/activate.txt
+/mlflow*
+/z-other-resources
+
+mlruns/
+
 .venv/
 
 .ipynb_checkpoints/
