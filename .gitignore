@@ -1,11 +1,17 @@
-/conda-cheatsheet.pdf
+# personal notes, scribbles
 /activate.txt
-/mlflow*
 /z-other-resources
+/cli-commands.txt
 
+# mlflow runs folders, mostly unused / empty
 mlruns/
 
+# mlflow db, prefect db, etc
+/*.db
+
+# virtual env
 .venv/
 
+# notebook checkpoints
 .ipynb_checkpoints/
 
