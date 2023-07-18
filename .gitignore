@@ -9,8 +9,9 @@ mlruns/
 # mlflow db, prefect db, etc
 /*.db
 
-# virtual env
+# virtual env and environment files
 .venv/
+.env
 
 # notebook checkpoints
 .ipynb_checkpoints/
