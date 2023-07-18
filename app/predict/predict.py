@@ -1,12 +1,11 @@
 import pickle
 from flask import Flask, request, jsonify
-from markupsafe import escape
 import pandas as pd
 
 app = Flask("duration-prediction")
 
 
-def load_model(model_path="./../../models/lin_reg.bin"):
+def load_model(model_path="lin_reg.bin"):
     with open(model_path, "rb") as f_in:
         return pickle.load(f_in)
 
@@ -35,5 +34,5 @@ def prediction_endpoint():
 
 
 if __name__=="__main__":
-    app.run(debug=True, host='localhost', port=9696)
+    app.run(debug=True, host='127.0.0.1', port=9696)
 
