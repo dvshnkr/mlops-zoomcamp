@@ -16,5 +16,9 @@ mlruns/
 # notebook checkpoints
 .ipynb_checkpoints/
 
-# pycache
+# py cache, pytest cache
 __pycache__/
+.pytest_cache/
+
+# vs code settings
+.vscode/
